@@ -34,13 +34,12 @@ class QuotesActivity : AppCompatActivity() {
             tvQuote.text = sb.toString()
         })
 
-        /*btnAddQuote.setOnClickListener {
+        btnAddQuote.setOnClickListener {
             val quote = Quote(etQuote.text.toString(), etAuthor.text.toString())
             viewModel.addQuotes(quote)
             etQuote.setText("")
             etAuthor.setText("")
         }
-*/
 
     }
 }
